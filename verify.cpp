@@ -75,7 +75,7 @@ bool verifySerial(const std::string& serial) {
     curl = curl_easy_init();
 
     if (curl) {
-        curl_easy_setopt(curl, CURLOPT_URL, "https://2258a9cc-ebf8-4680-9166-1f725334a4d3-00-3scu3gralrf0d.kirk.replit.dev/verify"); //認証サーバーURL
+        curl_easy_setopt(curl, CURLOPT_URL, "https://auth/verify"); //認証サーバーURL
         curl_easy_setopt(curl, CURLOPT_POST, 1L);
         curl_easy_setopt(curl, CURLOPT_POSTFIELDS, jsonString.c_str());
 
