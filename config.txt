@@ -1,0 +1,4 @@
+# 設定
+MouseSensitivity = 0.4 #感度
+AimSpeed = 6 # AIMする速さ
+shadeVariation = 28 #色の閾値 (基本的にいじらなくても大丈夫)

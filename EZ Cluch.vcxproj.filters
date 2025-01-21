@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\BackEnd">
+      <UniqueIdentifier>{aee6c714-9a52-4a73-8ee3-0b69a49b9c7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\EZ">
+      <UniqueIdentifier>{a296c332-0d84-4052-bf21-8ab7779c5d82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\BackEnd\Driver">
+      <UniqueIdentifier>{f66282dc-2190-4e8d-a07e-0341490045a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\BackEnd\Driver\Host_Edit">
+      <UniqueIdentifier>{f03d70b6-378f-40ae-89c0-2336de1ec53a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="verify.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ToggleKey.cpp">
+      <Filter>ソース ファイル\BackEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="AimBot.cpp">
+      <Filter>ソース ファイル\EZ</Filter>
+    </ClCompile>
+    <ClCompile Include="Capture.cpp">
+      <Filter>ソース ファイル\BackEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorFilter.cpp">
+      <Filter>ソース ファイル\BackEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>ソース ファイル\BackEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="Config_Read.cpp">
+      <Filter>ソース ファイル\BackEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="Driver.cpp">
+      <Filter>ソース ファイル\BackEnd\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>ソース ファイル\BackEnd\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerBOT.cpp">
+      <Filter>ソース ファイル\EZ</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw_FOV.cpp">
+      <Filter>ソース ファイル\BackEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="Install_Driver.cpp">
+      <Filter>ソース ファイル\BackEnd\Driver\Host_Edit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ToggleKey.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Capture.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorFilter.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Install_Driver.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EZ Cluch.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="jsoncpp.dll" />
+    <None Include="libcurl-d.dll" />
+    <None Include="zlibd1.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
